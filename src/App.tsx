@@ -1,12 +1,11 @@
-import Add from "./components/Add";
-import List from "./components/List";
+import Counter from "./components/Counter";
 
-function App(): any {
+function App() {
     return (
-        <div>
-            <Add />
-            <List />
-        </div>
+        <>
+            <h1 className="underline">Counter with Redux statement</h1>
+            <Counter />
+        </>
     );
 }
 
